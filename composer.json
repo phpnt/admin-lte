@@ -1,0 +1,30 @@
+{
+    "name": "phpnt/admin-lte",
+    "description": "Yii2 AdminLTE",
+    "keywords": ["yii2", "phpnt", "admin-lte", "adminlte", "admin", "lte", "widget"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability" : "dev",
+    "prefer-stable": true,
+    "support": {
+        "source": "https://github.com/phpnt/admin-lte"
+    },
+    "authors": [
+        {
+            "name": "phpNT",
+            "email": "phpnt@phpnt.com",
+            "homepage": "http://phpnt.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "phpnt/font-awesome": "^0.0.1",
+        "bower-asset/admin-lte": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpnt\\adminLTE\\": ""
+        }
+    }
+}
