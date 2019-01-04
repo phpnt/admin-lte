@@ -19,7 +19,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "phpnt/font-awesome": "^0.0.1",
+        "phpnt/font-awesome": "*",
         "bower-asset/admin-lte": "*"
     },
     "autoload": {
