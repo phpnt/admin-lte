@@ -16,12 +16,12 @@ class AdminLteAsset extends BaseAdminLteAsset
     public $sourcePath = '@bower/admin-lte/dist';
 
     public $css = [
-        'css/adminlte.css',
         'css/alt/adminlte.components.css',
         'css/alt/adminlte.core.css',
         'css/alt/adminlte.extra-components.css',
         'css/alt/adminlte.pages.css',
         'css/alt/adminlte.plugins.css',
+        'css/adminlte.css',
     ];
 
     public $js = [
